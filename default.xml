@@ -38,7 +38,7 @@
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
 
-  <project path="manifest" name="kernel_google_gs-6.1_manifest" remote="cs" />
+  <project path="manifest" name="kernel_google_gs-6.1_manifest" remote="cs" revision="refs/heads/main" />
   <project path="private/devices" name="kernel_google_gs-6.1_devices" remote="cs">
     <linkfile dest="AGENTS.md" src="google/common/workspace/root.AGENTS.md" />
     <linkfile dest="WORKSPACE" src="google/common/workspace/root.WORKSPACE" />
